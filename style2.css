@@ -1,0 +1,142 @@
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(129,142,137,1) 35%, rgba(127,130,130,1) 100%);    
+    height: 100vh;
+}
+
+.menu-button{
+    visibility: hidden;
+}
+
+.wrapper {
+    top: 0px;
+    position:relative;
+    width: 100%;
+    height: 70px;
+    background-color: rgba(87, 86, 86, 0.74);
+    
+}
+
+.logo img {
+    margin-top: 10px;
+    margin-left: 80px;
+    position: absolute;
+    width: 10%;
+}
+
+.dropdown-menu a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3vh;
+    color: white;
+    padding-left: 20px;
+    text-decoration: none;
+    position: relative;
+    left: 50%;
+    display: inline-block;
+    
+}
+span{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3vh;
+    color: white;
+    padding-left: 20px;
+    text-decoration: none;
+    position: relative;
+    left: 50%;
+    display: inline-block;
+    
+}
+.dropdown-menu a:hover{
+    color: rgb(61, 61, 61);    
+}
+
+.itemP h1 {
+    
+    font-weight: normal;
+    letter-spacing: 5px;
+    color: white;
+    font-size: 15vh;
+    text-transform: uppercase;
+    position: relative;
+    text-align: center;
+    top: 20px;
+    
+}
+
+.itemP button {
+    cursor: pointer;
+    font-size: 18px;
+    width: 450px;
+    height: 50px;
+    color: white;
+    font-weight: normal;
+    background-color: rgb(114, 114, 114);
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    text-transform: uppercase;
+    border: 1px solid rgb(114, 114, 114);
+    border-radius: 50px;
+    padding: 10px;
+    
+}
+
+
+.itemP button:hover {
+    animation: all.1s;
+    background-color: rgb(58, 58, 58);
+    box-shadow: 5px 5px 10px black;
+}
+.itemS {
+    
+    margin-top: 30px;
+    background-color: white;
+    width: 100%;
+    position: absolute;
+    height: auto;
+    
+}
+
+.itemS h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    letter-spacing: 2px;
+    color: black;
+    padding-top: 1%;
+    text-align: center;
+}
+.itemS p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+    margin-left: 300px;
+    margin-right: 300px;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 30px;
+}
+
+
+#escova01 {
+    top: -10%;
+    left: -5%;
+    width: 40%;
+    position: absolute;
+}
+
+#escova02 {
+    top: 40%;
+    left: 60%;
+    width: 40%;
+    position: absolute;
+}
+
+
+
+
+
+
+
+

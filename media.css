@@ -1,0 +1,605 @@
+@media (max-width: 720px){
+    body{
+        background-color: tomato;
+        height: 100vh;
+    }
+    
+    .wrapper {
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .logo img {
+        width: 20%;
+        right: 75%;
+    }
+         
+    .menu-button {
+        visibility: visible;
+        top: 5px;
+        right: 20%;
+        position: relative;
+        background-color: transparent;
+        color: black;
+        padding: 10px;
+        margin: 10px;
+        font-size: 15px;
+        cursor: pointer;
+        border: 1px solid black;
+    }
+    
+    span {
+        display: none;
+    }
+    .right-menu {
+        position: relative;
+        display: inline-block;
+        float: right;
+        
+    }
+    
+    .dropdown-menu {
+        top: 56px;
+        display: none;
+        position: absolute;
+        right: 111px;
+        min-width: 150px;
+        z-index: 1;
+    }
+    
+    .dropdown-menu a {
+        border: 1px solid black;
+        color: white;
+        padding: 0px 0px;
+        display: block;
+        background-color: rgba(0, 0, 0, 0.548);
+    }
+    
+    .dropdown-menu a:hover{
+        
+        color: green;
+    
+    }
+    
+    .right-menu:hover .dropdown-menu{
+        display: block;
+    }
+    
+    .right-menu:hover .menu-button{
+        color: green;
+        
+    
+    }
+    
+    .mus h1 {
+        color: white;
+        font-size: 8vh;
+        position: relative;
+        text-align: center;
+        
+        
+    }
+    
+    .mus #free {
+        position: absolute;
+        top: 35%;
+        left: 50%;
+    }
+
+    .mus #premium {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+    }
+    
+
+    .wsh {
+        margin-top: 25%;
+        width: 100%;
+        height: 700px;
+    }
+    
+    .wsh img  {
+        margin-left:20px;
+        width: 30%;
+        top: 65%;
+    }
+
+    #ts {
+        left: 42%;
+        top: 43%;
+    }
+
+    #d {
+        left: 42%;
+        top: 43%;
+    }
+
+    .wsh h1 {
+        padding: 10px;
+        font-size: 40px;
+    }
+
+    #msc h2 {
+        padding: 10px;
+        font-size: 30px;
+    }
+
+    #msc p {
+        padding: 10px;
+        font-size: 20px;
+    }
+
+    .pl h2 {
+        padding: 10px;
+        font-size: 30px;
+    }
+
+    .pl p {
+        padding: 10px;
+        font-size: 20px;
+    }
+
+    .nl h2 {
+        padding: 10px;
+        font-size: 30px;
+    }
+
+    .nl p {
+        padding: 10px;
+        font-size: 20px;
+    }
+
+    .tres img {
+        top: 120%;
+        width: 15%;
+        transform: rotate(35deg);
+        transform-origin: left top 0;
+        position: absolute;
+        left: 80%;
+    }
+    
+    .tres #pl2 {
+        top: 100%;
+        left: 75%;
+    }
+
+
+    
+    
+
+    footer {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: white;
+        margin-top: 200px;
+        position: absolute;
+        background-color: black;
+        width: 0;
+       
+    }
+    
+    #logobottom {
+        padding-top: 40px;
+        position: relative;
+        padding-left: 30px;
+        width: 20%;
+    }
+    
+    #company {
+        font-weight: lighter;
+        color: grey;
+        position: absolute;
+        top: 30%;
+        left: 1px;
+    }
+    
+    #company li {
+        cursor: pointer;
+        letter-spacing: 1px;
+        left: 10px;
+        color: white;
+        list-style-type: none;
+        position: relative;
+        margin-bottom: 20px;
+        top: 30px;
+        
+    }
+    
+    #company li:hover {
+        color: green;
+    }
+    
+    #comuni {
+        font-weight: lighter;
+        color: grey;
+        position: absolute;
+        top: 30%;
+        left: 25%;
+    }
+    
+    #comuni li {
+        cursor: pointer;
+        letter-spacing: 1px;
+        left: 10px;
+        color: white;
+        list-style-type: none;
+        position: relative;
+        margin-bottom: 20px;
+        top: 30px;
+    }
+    
+    #comuni li:hover {
+        color: green;
+    }
+    
+    #lu {
+        font-weight: lighter;
+        color: grey;
+        position: absolute;
+        top: 30%;
+        left: 60%;
+    }
+    
+    #lu li {
+        cursor: pointer;
+        letter-spacing: 1px;
+        left: 10px;
+        color: white;
+        list-style-type: none;
+        position: relative;
+        margin-bottom: 20px;
+        top: 30px;
+    }
+    
+    #lu li:hover {
+        color: green;
+    }
+    
+    #inst {
+        cursor: pointer;
+        margin-top: 30px;
+        width: 50px;
+        padding: 5px;
+        border-radius: 50px;
+        left: 50%;
+        color: black;
+        background-color: grey;
+        position: absolute;
+    }
+    #tt {
+        cursor: pointer;
+        margin-top: 30px;
+        width: 50px;
+        padding: 5px;
+        border-radius: 50px;
+        left: 65%;
+        color: black;
+        background-color: grey;
+        position: absolute;
+    }
+    
+    #fb {
+        cursor: pointer;
+        margin-top: 30px;
+        width: 50px;
+        padding: 5px;
+        border-radius: 50px;
+        left: 80%;
+        color: black;
+        background-color: grey;
+        position: absolute;
+    }
+
+
+    
+   .footer p {
+       display: none;
+   }
+
+    
+    
+}
+
+/*@media (max-width: 720px){
+    body{
+        background-color: tomato;
+        height: 100vh;
+    }
+    
+    .wrapper {
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .logo img {
+        width: 20%;
+        right: 75%;
+    }
+         
+    .menu-button {
+        visibility: visible;
+        top: 5px;
+        right: 20%;
+        position: relative;
+        background-color: transparent;
+        color: black;
+        padding: 10px;
+        margin: 10px;
+        font-size: 15px;
+        cursor: pointer;
+        border: 1px solid black;
+    }
+    
+    span {
+        display: none;
+    }
+    .right-menu {
+        position: relative;
+        display: inline-block;
+        float: right;
+        
+    }
+    
+    .dropdown-menu {
+        top: 56px;
+        display: none;
+        position: absolute;
+        right: 111px;
+        min-width: 150px;
+        z-index: 1;
+    }
+    
+    .dropdown-menu a {
+        border: 1px solid black;
+        color: white;
+        padding: 0px 0px;
+        display: block;
+        background-color: rgba(0, 0, 0, 0.548);
+    }
+    
+    .dropdown-menu a:hover{
+        
+        color: green;
+    
+    }
+    
+    .right-menu:hover .dropdown-menu{
+        display: block;
+    }
+    
+    .right-menu:hover .menu-button{
+        color: green;
+        
+    
+    }
+    
+    .mus h1 {
+        color: white;
+        font-size: 8vh;
+        position: relative;
+        text-align: center;
+        
+        
+    }
+    
+    .mus #free {
+        position: absolute;
+        top: 35%;
+        left: 50%;
+    }
+
+    .mus #premium {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+    }
+    
+
+    .wsh {
+        margin-top: 25%;
+        width: 100%;
+        height: 700px;
+    }
+    
+    .wsh img  {
+        margin-left:20px;
+        width: 30%;
+        top: 65%;
+    }
+
+    #ts {
+        left: 42%;
+        top: 43%;
+    }
+
+    #d {
+        left: 42%;
+        top: 43%;
+    }
+
+    .wsh h1 {
+        padding: 10px;
+        font-size: 40px;
+    }
+
+    #msc h2 {
+        padding: 10px;
+        font-size: 30px;
+    }
+
+    #msc p {
+        padding: 10px;
+        font-size: 20px;
+    }
+
+    .pl h2 {
+        padding: 10px;
+        font-size: 30px;
+    }
+
+    .pl p {
+        padding: 10px;
+        font-size: 20px;
+    }
+
+    .nl h2 {
+        padding: 10px;
+        font-size: 30px;
+    }
+
+    .nl p {
+        padding: 10px;
+        font-size: 20px;
+    }
+
+    .tres img {
+        top: 144%;
+        width: 15%;
+        transform: rotate(35deg);
+        transform-origin: left top 0;
+        position: absolute;
+        left: 40%;
+    }
+    
+    .tres #pl2 {
+        top: 100%;
+        left: 75%;
+    }
+
+
+    
+    
+
+    footer {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: white;
+        margin-top: 200px;
+        position: absolute;
+        background-color: black;
+        width: 0;
+       
+    }
+    
+    #logobottom {
+        padding-top: 40px;
+        position: relative;
+        padding-left: 30px;
+        width: 30%;
+    }
+    
+    #company {
+        font-weight: lighter;
+        color: grey;
+        position: absolute;
+        top: 30%;
+        left: 1px;
+    }
+    
+    #company li {
+        cursor: pointer;
+        letter-spacing: 1px;
+        left: 10px;
+        color: white;
+        list-style-type: none;
+        position: relative;
+        margin-bottom: 20px;
+        top: 30px;
+        
+    }
+    
+    #company li:hover {
+        color: green;
+    }
+    
+    #comuni {
+        font-weight: lighter;
+        color: grey;
+        position: absolute;
+        top: 30%;
+        left: 25%;
+    }
+    
+    #comuni li {
+        cursor: pointer;
+        letter-spacing: 1px;
+        left: 10px;
+        color: white;
+        list-style-type: none;
+        position: relative;
+        margin-bottom: 20px;
+        top: 30px;
+    }
+    
+    #comuni li:hover {
+        color: green;
+    }
+    
+    #lu {
+        font-weight: lighter;
+        color: grey;
+        position: absolute;
+        top: 30%;
+        left: 60%;
+    }
+    
+    #lu li {
+        cursor: pointer;
+        letter-spacing: 1px;
+        left: 10px;
+        color: white;
+        list-style-type: none;
+        position: relative;
+        margin-bottom: 20px;
+        top: 30px;
+    }
+    
+    #lu li:hover {
+        color: green;
+    }
+    
+    #inst {
+        cursor: pointer;
+        margin-top: 30px;
+        width: 50px;
+        padding: 5px;
+        border-radius: 50px;
+        left: 50%;
+        color: black;
+        background-color: grey;
+        position: absolute;
+    }
+    #tt {
+        cursor: pointer;
+        margin-top: 30px;
+        width: 50px;
+        padding: 5px;
+        border-radius: 50px;
+        left: 65%;
+        color: black;
+        background-color: grey;
+        position: absolute;
+    }
+    
+    #fb {
+        cursor: pointer;
+        margin-top: 30px;
+        width: 50px;
+        padding: 5px;
+        border-radius: 50px;
+        left: 80%;
+        color: black;
+        background-color: grey;
+        position: absolute;
+    }
+
+
+    
+   .footer p {
+       display: none;
+   }
+
+    
+    
+}
+
+*/
